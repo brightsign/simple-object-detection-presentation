@@ -1,0 +1,1 @@
+echo -n "cup:0!!phone:1!!timestamp:1746732408" | nc -u -w1 xt5i 5000

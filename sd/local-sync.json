@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "client": {
+      "lastModifiedTime": "2025-07-15T23:38:13.260",
+      "enableSerialDebugging": true,
+      "enableSystemLogDebugging": true,
+      "publishedDataSizeLimitMB": 0,
+      "dynamicDataSizeLimitMB": 0,
+      "htmlDataSizeLimitMB": 0,
+      "htmlLocalStorageSizeLimitMB": 0,
+      "htmlIndexedDBSizeLimitMB": 0,
+      "publishedDataSizeLimitPercentage": 0,
+      "dynamicDataSizeLimitPercentage": 0,
+      "htmlDataSizeLimitPercentage": 0,
+      "htmlLocalStorageSizeLimitPercentage": 0,
+      "htmlIndexedDBSizeLimitPercentage": 0,
+      "limitStorageSpace": false,
+      "playbackLoggingEnabled": true,
+      "eventLoggingEnabled": true,
+      "diagnosticLoggingEnabled": true,
+      "stateLoggingEnabled": true,
+      "variableLoggingEnabled": true,
+      "uploadLogFilesAtBoot": false,
+      "uploadLogFilesAtSpecificTime": false,
+      "uploadLogFilesTime": 0
+    },
+    "server": {}
+  },
+  "files": {
+    "download": [
+      {
+        "name": "autoplay-simple-object.json",
+        "hash": {
+          "method": "SHA1",
+          "hex": "1a77e03267f5555718e9f70eac36a6a30a086bb3"
+        },
+        "size": 25559,
+        "link": "pool/b/3/sha1-1a77e03267f5555718e9f70eac36a6a30a086bb3"
+      },
+      {
+        "name": "simple-object.bml",
+        "hash": {
+          "method": "SHA1",
+          "hex": "90f89dd9036dc5083e223bbaca4daaf748916779"
+        },
+        "size": 38323,
+        "link": "pool/7/9/sha1-90f89dd9036dc5083e223bbaca4daaf748916779"
+      },
+      {
+        "name": "meet-brightsign.mp4",
+        "hash": {
+          "method": "SHA1",
+          "hex": "c78b8433f19a7249fbf8ca09c75c333d9294742a"
+        },
+        "size": 40969933,
+        "link": "pool/2/a/sha1-c78b8433f19a7249fbf8ca09c75c333d9294742a",
+        "probe": "2|TT=MP4|IX=Y|VP=1|VC=H264|W=1920|H=1080|VD=0001db28|CD=0|VFR=25.000000|D=0001db3d|FT=00000000"
+      },
+      {
+        "name": "pizza.mp4",
+        "hash": {
+          "method": "SHA1",
+          "hex": "414bd249499e73ff53e372c3b78f0b9aa8b6fbb5"
+        },
+        "size": 10655859,
+        "link": "pool/b/5/sha1-414bd249499e73ff53e372c3b78f0b9aa8b6fbb5",
+        "probe": "2|TT=MP4|IX=Y|VP=1|VC=H264|W=1920|H=1080|VD=00001433|CD=0|VFR=29.974859|D=00001433|FT=00000000"
+      },
+      {
+        "name": "salad.mp4",
+        "hash": {
+          "method": "SHA1",
+          "hex": "0dbf4a8fb2b8a9f214d292e0637595a578d9a420"
+        },
+        "size": 11225981,
+        "link": "pool/2/0/sha1-0dbf4a8fb2b8a9f214d292e0637595a578d9a420",
+        "probe": "2|TT=MP4|IX=Y|VP=1|VC=H264|W=1920|H=1080|VD=000014fc|CD=0|VFR=29.970217|D=000014fc|FT=00000000"
+      },
+      {
+        "name": "galaxy-flip-phone.mp4",
+        "hash": {
+          "method": "SHA1",
+          "hex": "25edf339df4644741b62fb20edf8c4b6bc83f194"
+        },
+        "size": 14361149,
+        "link": "pool/9/4/sha1-25edf339df4644741b62fb20edf8c4b6bc83f194",
+        "probe": "2|TT=MP4|IX=Y|VP=1|VC=H264|W=1920|H=1080|VD=00002bc0|CD=0|VFR=25.000000|D=00002bc0|FT=00000000"
+      },
+      {
+        "name": "starbucks.mp4",
+        "hash": {
+          "method": "SHA1",
+          "hex": "2b873a5fdc68a13ab9f74eba6d5155d05085e65b"
+        },
+        "size": 4696431,
+        "link": "pool/5/b/sha1-2b873a5fdc68a13ab9f74eba6d5155d05085e65b",
+        "probe": "2|TT=MP4|IX=Y|VP=1|VC=H264|W=1920|H=1080|VD=00001888|CD=0|VFR=25.000000|D=00001888|FT=00000000"
+      },
+      {
+        "name": "autoplugins.brs",
+        "hash": {
+          "method": "SHA1",
+          "hex": "4757dc2a65c88a30f08d9ae0d7722998f0510bb8"
+        },
+        "size": 142,
+        "link": "pool/b/8/sha1-4757dc2a65c88a30f08d9ae0d7722998f0510bb8",
+        "group": "script"
+      },
+      {
+        "name": "autorun.brs",
+        "hash": {
+          "method": "SHA1",
+          "hex": "d95c9ffae62e27bf318b3785417d28c2e4dccc20"
+        },
+        "size": 1180982,
+        "link": "pool/2/0/sha1-d95c9ffae62e27bf318b3785417d28c2e4dccc20",
+        "group": "script"
+      },
+      {
+        "name": "autoschedule.json",
+        "hash": {
+          "method": "SHA1",
+          "hex": "b168de99df35e9afa9909091a58e31ac64a029e2"
+        },
+        "size": 1014,
+        "link": "pool/e/2/sha1-b168de99df35e9afa9909091a58e31ac64a029e2"
+      },
+      {
+        "name": "featureMinRevs.json",
+        "hash": {
+          "method": "SHA1",
+          "hex": "be206e2753e404e0135926e3f26fea9a8da705d2"
+        },
+        "size": 72,
+        "link": "pool/d/2/sha1-be206e2753e404e0135926e3f26fea9a8da705d2"
+      },
+      {
+        "name": "PartnerProducts.json",
+        "hash": {
+          "method": "SHA1",
+          "hex": "7f6f525d51ba1977356a37f7b9f097a52cf53f3a"
+        },
+        "size": 5473,
+        "link": "pool/3/a/sha1-7f6f525d51ba1977356a37f7b9f097a52cf53f3a"
+      },
+      {
+        "name": "Default_PresentationWebPage/_deviceWebPage.html",
+        "hash": {
+          "method": "SHA1",
+          "hex": "b6bec2ed0cd22a6d53cd97056d7d5f82705ffe9d"
+        },
+        "size": 24922,
+        "link": "pool/9/d/sha1-b6bec2ed0cd22a6d53cd97056d7d5f82705ffe9d"
+      }
+    ],
+    "ignore": [
+      {
+        "pattern": "*"
+      }
+    ],
+    "delete": [
+      {
+        "pattern": "*.brs"
+      },
+      {
+        "pattern": "*.rok"
+      },
+      {
+        "pattern": "*.bsfw"
+      }
+    ]
+  }
+}
