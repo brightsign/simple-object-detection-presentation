@@ -506,7 +506,7 @@
         }
       },
       "wssDeviceSpec": {},
-      "lastModifiedTime": "2025-07-15T23:17:51.722Z"
+      "lastModifiedTime": "2025-07-18T21:28:45.624Z"
     },
     "zones": {
       "zonesById": {
@@ -834,8 +834,35 @@
       }
     },
     "commands": {
-      "commandsById": {},
-      "sequencesById": {}
+      "commandsById": {
+        "7769b0c3-c376-4000-a5af-aa6262497000": {
+          "id": "7769b0c3-c376-4000-a5af-aa6262497000",
+          "name": "Connector volume",
+          "operations": [
+            {
+              "type": "setConnectorVolume",
+              "data": {
+                "connector": "analog1",
+                "volume": {
+                  "type": "Number",
+                  "value": 100
+                }
+              }
+            }
+          ],
+          "sequenceId": "b8faaaf4-79a2-4000-ad87-e241a5c8a000"
+        }
+      },
+      "sequencesById": {
+        "b8faaaf4-79a2-4000-ad87-e241a5c8a000": {
+          "id": "b8faaaf4-79a2-4000-ad87-e241a5c8a000",
+          "type": "StateEntry",
+          "parentId": "75d5c2b3-bcb0-4000-af46-96f4c3977000",
+          "sequence": [
+            "7769b0c3-c376-4000-a5af-aa6262497000"
+          ]
+        }
+      }
     },
     "userDefinedEvents": {
       "userDefinedEventsById": {},
@@ -851,7 +878,7 @@
       "variablesById": {
         "923f41eb-6888-4000-add1-807e04e48000": {
           "id": "923f41eb-6888-4000-add1-807e04e48000",
-          "name": "faces_attending",
+          "name": "person",
           "defaultValue": {
             "params": [
               {
@@ -902,7 +929,7 @@
         },
         "b47057e9-be82-4000-af7a-f301c493e000": {
           "id": "b47057e9-be82-4000-af7a-f301c493e000",
-          "name": "phone",
+          "name": "cell_phone",
           "defaultValue": {
             "params": [
               {
@@ -1029,10 +1056,17 @@
       "type": "ZONE",
       "selectableType": "ZONE"
     },
-    "selectionEntities": {},
+    "selectionEntities": {
+      "365cfcb9-d5b0-4000-a004-a4a2e4e27000": {
+        "id": "365cfcb9-d5b0-4000-a004-a4a2e4e27000",
+        "type": "Video",
+        "selectableType": "STATE",
+        "selectableData": null
+      }
+    },
     "prevSelectionEntities": {
-      "d8ccb110-7fec-4000-ac59-ceaf10e79000": {
-        "id": "d8ccb110-7fec-4000-ac59-ceaf10e79000",
+      "b5b2ac04-3d14-4000-ac45-1b7246f85000": {
+        "id": "b5b2ac04-3d14-4000-ac45-1b7246f85000",
         "type": "Event",
         "selectableType": "TRANSITION",
         "selectableData": null
@@ -1054,7 +1088,7 @@
         "id": "75d5c2b3-bcb0-4000-af46-96f4c3977000",
         "position": {
           "x": 498,
-          "y": 91
+          "y": 92
         }
       },
       "118e18e0-f7d4-4000-a434-0226b68fe000": {
@@ -1204,9 +1238,9 @@
         "k": 1
       },
       "7e3428c7-c252-4000-af66-40746e160000": {
-        "x": 199.3999083262537,
-        "y": 24.443334755262413,
-        "k": 0.7245526101319093
+        "x": 0,
+        "y": 0,
+        "k": 1
       }
     },
     "isLoaderEnabled": false

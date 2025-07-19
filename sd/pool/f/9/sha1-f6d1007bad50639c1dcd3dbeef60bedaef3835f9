@@ -504,7 +504,7 @@
       "customDeviceWebPage": null,
       "userVariables": [
         {
-          "name": "faces_attending",
+          "name": "person",
           "defaultValue": "0",
           "access": "Shared",
           "systemVariable": "",
@@ -531,7 +531,7 @@
           "data": null
         },
         {
-          "name": "phone",
+          "name": "cell_phone",
           "defaultValue": "0",
           "access": "Private",
           "systemVariable": "",
@@ -819,7 +819,28 @@
                 "type": "video"
               },
               "name": "galaxy-flip-phone.mp4",
-              "entryCommands": [],
+              "entryCommands": [
+                {
+                  "setConnectorVolume": [
+                    {
+                      "connector": [
+                        {
+                          "type": "text",
+                          "value": "analog1"
+                        }
+                      ]
+                    },
+                    {
+                      "volume": [
+                        {
+                          "type": "text",
+                          "value": "100"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
               "exitCommands": []
             },
             {
@@ -874,7 +895,7 @@
                   "commands": []
                 },
                 {
-                  "variableName": "phone",
+                  "variableName": "cell_phone",
                   "compareOperator": "GT",
                   "compareValue1": [
                     {
