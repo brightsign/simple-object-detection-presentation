@@ -506,7 +506,7 @@
         }
       },
       "wssDeviceSpec": {},
-      "lastModifiedTime": "2025-07-18T21:28:45.624Z"
+      "lastModifiedTime": "2025-08-07T21:14:48.269Z"
     },
     "zones": {
       "zonesById": {
@@ -962,7 +962,13 @@
     "scriptPlugins": {},
     "parserPlugins": {},
     "videoModePlugins": {},
-    "auxiliaryFiles": {},
+    "auxiliaryFiles": {
+      "c2cf982f-c866-4000-ae99-d28b8ba23000": {
+        "id": "c2cf982f-c866-4000-ae99-d28b8ba23000",
+        "name": "cobra-standalone-npu_gaze-0.1.4-alpha.bsfw",
+        "assetId": "63c6240e-9dc4-4000-aa34-d60d6bc5a000"
+      }
+    },
     "linkedPresentations": {},
     "partnerProducts": {},
     "customAutorun": "0",
@@ -1037,6 +1043,20 @@
         "fileSize": 4696431,
         "lastModifiedDate": "2025-07-15T19:58:19.048Z",
         "refCount": 1
+      },
+      "63c6240e-9dc4-4000-aa34-d60d6bc5a000": {
+        "id": "63c6240e-9dc4-4000-aa34-d60d6bc5a000",
+        "name": "cobra-standalone-npu_gaze-0.1.4-alpha.bsfw",
+        "path": "/Users/gherlein/src/brightsign/ai/july/advanced-gaze-detection-presentation/bspf/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "978ee8040586683d",
+        "locator": "file:///Users/gherlein/src/brightsign/ai/july/advanced-gaze-detection-presentation/bspf/cobra-standalone-npu_gaze-0.1.4-alpha.bsfw",
+        "mediaType": "Auxiliary",
+        "fileSize": 41998218,
+        "lastModifiedDate": "2025-08-07T20:44:33.131Z",
+        "refCount": 1
       }
     },
     "thumbnail": {
@@ -1052,26 +1072,19 @@
   "selection": {
     "hovered": null,
     "selectionContainer": {
-      "id": "7e3428c7-c252-4000-af66-40746e160000",
-      "type": "ZONE",
-      "selectableType": "ZONE"
+      "id": "PRESENTATION",
+      "type": "PRESENTATION",
+      "selectableType": "PRESENTATION"
     },
     "selectionEntities": {
-      "365cfcb9-d5b0-4000-a004-a4a2e4e27000": {
-        "id": "365cfcb9-d5b0-4000-a004-a4a2e4e27000",
-        "type": "Video",
-        "selectableType": "STATE",
+      "7e3428c7-c252-4000-af66-40746e160000": {
+        "id": "7e3428c7-c252-4000-af66-40746e160000",
+        "type": "ZONE",
+        "selectableType": "ZONE",
         "selectableData": null
       }
     },
-    "prevSelectionEntities": {
-      "b5b2ac04-3d14-4000-ac45-1b7246f85000": {
-        "id": "b5b2ac04-3d14-4000-ac45-1b7246f85000",
-        "type": "Event",
-        "selectableType": "TRANSITION",
-        "selectableData": null
-      }
-    },
+    "prevSelectionEntities": {},
     "isEventAdvancedEnabled": false,
     "activeAssetMenuTab": "ASSETS"
   },
