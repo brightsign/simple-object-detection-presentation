@@ -4,7 +4,7 @@ This demo BA:con presentation showcases the tech behind the NPU that is enabled 
 
 - Full motion video playing as an attract loop
 - If a cup is detected in the camera view, a Starbucks video plays
-- If a phone is detected in the camera view, a Samsung phonevideo plays
+- If a phone is detected in the camera view, a Samsung phone video plays
 
 > **Looking for a complete solution?**
 > [**Argus**](https://github.com/brightsign/argus-audience-measurement-extension) is BrightSign's
